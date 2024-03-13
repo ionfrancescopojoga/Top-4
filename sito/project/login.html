@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN STUDENTE</title>
+</head>
+<body>
+
+    <h1>Benvenuti nell'area login studente!</h1>
+
+    <p>Qui potrete effettuare il login così da dare le proprie informazioni per poter prenotare il dispositivo che fa per voi.</p>
+
+    <form action="process_login.php" method="POST">
+        <label for="user_id">ID Utente:</label>
+        <input type="text" id="user_id" name="user_id" required pattern="[0-9]+" title="Inserisci solo numeri"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
+
+
+
+
+   
